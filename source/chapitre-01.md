@@ -1,7 +1,8 @@
 # Travail Personnel: Fonctionnement d'un Routeur 
 
-.. figure:: routeur_image.png
-    :figwidth: 50 %
+```{figure} img/routeur_image.png
+    :scale: 50 %
+```
  ## Réseau: les bases
 
 ### Réseaux informatiques
@@ -16,7 +17,9 @@ On appelle réseau informatique une structure qui relie plusieurs machines infor
 - Des intermédiaires directs, c'est à dire des machines dont le but est de faire office de relais (Hub/switch, router, ...)
 Un exemple typique:
 
-.. figure:: exemple1.jpg
+```{figure} img/exemple1.jpg
+    :scale: 50 %
+```
 
 Dans ce schéma plusieurs machines (les ordinateurs et le serveur) sont reliées entre elles via des switchs. Un routeur va faire le pont entre les 2 LAN, ce qui permettrait (entre autre) l'accès de toutes les machines au serveur.
 
@@ -33,7 +36,9 @@ Ces réseaux se classifient (notamment) selon leurs portées, nous retiendrons l
 ## Couches OSI
 Afin de centrer le rôle des routeurs, nous devons détailler les différents points clés nécéssaires à la communication entre 2 machines. Pour se faire nous allons nous servir d'un modèle théorique que l'on appelle le modèle OSI (Open System Interconnection) qui va décomposer le tout en 7 couches (layers en anglais):
 
-.. figure:: OSI.png
+```{figure} img/OSI.png
+    :scale: 50 %
+```
 
 Donnons un aperçut plus concret de ce modèle:
 - Couche 1: Il s'agit de l'ensemble des dispositifs transportant physiquement l'information (câble/antenne).
@@ -43,8 +48,9 @@ Donnons un aperçut plus concret de ce modèle:
 - Couche 5-6-7: Tout le reste, autrement dit gérer les requêtes d'échange de données, interprétation des données, puis interface utilisateur.
 
 En pratique c'est plutôt le modèle TCP/IP qui est utilisé, il s'agit du même modèle que l'OSI mais avec certaines couches qui sont fondues ensemble:
-
-.. figure:: ositcpip.png
+```{figure} img/ositcpip.png
+    :scale: 50 %
+```
 
 
 ## Machines intermédiaires
@@ -77,8 +83,9 @@ Internet protocol (IP), il s’agit d’une adresse le plus souvent temporaire p
 
 Il s'agit d'une manière d'assurer le routage, en mettant une en-tête àau sommet d'un paquet de données afin de détailler diverses informations pratiques pour son voyage sur les réseaux:
 
-
-.. figure:: ipv4.png
+```{figure} img/ipv4.png
+    :scale: 50 %
+```
 
 
 Détaillons les différents éléments:
@@ -113,7 +120,9 @@ Un avantage du NAT est en terme de sécurité car en utilisant des adresses prop
 
 **IPv6:** Même principe que l'IPv4 mais avec quelques nouveautés:
 
-.. figure:: ipv6.png
+```{figure} img/ipv6.png
+    :scale: 50 %
+```
 
 Détaillons les différents éléments:
 - Traffic Class: c'est un nombre décrivant la manière dont le paquet doit être acheminé (selon la classification de traffic: fast/ low ressource consuming, ...).
@@ -163,7 +172,9 @@ Il existe plusieurs types de routeurs selon leurs fonctions dans le réseau.
 
 
 ## Hardware d'un routeur
-.. figure:: router.jpg
+```{figure} img/router.jpg
+    :scale: 50 %
+```
 
 Un routeur classique va contenir les éléments suivants:
 - Controller ship: Le microprocesseur, comme sur un ordinateur, exécute des commandes (pour les fonctions de routages/ initialisation du système/...) afin de faire fonctionner le routeur.
