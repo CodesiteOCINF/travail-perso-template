@@ -11,9 +11,13 @@ Titre de votre travail personnel (changer dans `source/index.rst`)
     :maxdepth: 2
     :caption: Table des matières
 
-    introduction.rst
-    conclusion.rst
-    references.rst
+    Réseau: Bases.md
+    Couches OSI.md
+    Machines intermédiaires.md
+    Routage: principe et protocoles.md
+    Hardware d'un routeur.md
+    Conversion_d'un raspberry pi en routeur.md
+
 
 ..
     ..  toctree::
