@@ -2,17 +2,6 @@
 
 .. figure:: routeur_image.png
     :figwidth: 50 %
-    
-    Réseau: Bases
-    Couches OSI
-    Machines intermédiaires
-    Routage: principe et protocoles
-    Hardware d'un routeur
-    Conversion_d'un raspberry pi en routeur
-
-
-
-
  ## Réseau: les bases
 
 ### Réseaux informatiques
@@ -272,7 +261,7 @@ Il faut cliquer sur *start hotspot*, ensuite changer le eth0 en wlan0 (si l'on v
 Cela indiquera que l'interface active sera l'uap0 (qui relie ce routeur à celui de la maison sans fil).
 Et finalement, il suffira de se connecter au raspberry pi avec son téléphone/ordinateur.
 
-## Sources:
+## Source
 - Designing SwitchRouters Architectures and Applications, James Aweya
 - Designing SwitchRouters Fundamental Concepts and Design Methods, James Aweya
 - https://labo-tech.fr/base-de-connaissance/comment-faire-un-relais-dhcp/
