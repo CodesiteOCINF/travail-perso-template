@@ -11,12 +11,21 @@ Fonctionnement des Routeurs
     :maxdepth: 2
     :caption: Table des matières
 
-    Réseau: Bases.md
-    Couches OSI.md
-    Machines intermédiaires.md
-    Routage: principe et protocoles.md
-    Hardware d'un routeur.md
-    Conversion_d'un raspberry pi en routeur.md
+    main_text.md
+    codeB.png
+    exemple1.jpg
+    fond1.jpg
+    ipv4.png
+    IPv6.png
+    OSI.png
+    ositcpip.png
+    preuve_n-1.jpeg
+    preuve_n.png
+    preuve1.png
+    Preuve2.PNG
+    Preuve3.PNG
+    router.jpg
+    
 
 
 ..
