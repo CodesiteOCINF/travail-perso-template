@@ -12,19 +12,6 @@ Fonctionnement des Routeurs
     :caption: Table des matières
 
     main_text.md
-    codeB.png
-    exemple1.jpg
-    fond1.jpg
-    ipv4.png
-    IPv6.png
-    OSI.png
-    ositcpip.png
-    preuve_n-1.jpeg
-    preuve_n.png
-    preuve1.png
-    Preuve2.PNG
-    Preuve3.PNG
-    router.jpg
     
 
 

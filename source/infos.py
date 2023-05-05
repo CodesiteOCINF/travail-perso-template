@@ -1,9 +1,9 @@
 class DocumentInfos:
 
-    title = u'Fonctionnement des Routeurs (modifier dans `source/infos.py`)'
-    first_name = 'Pierre (infos.py)'
-    last_name = 'Dey (infos.py)'
-    author = f'{first_name} {last_name}'
+    title = u'Fonctionnement des Routeurs'
+    first_name = 'Pierre'
+    last_name = 'Dey'
+    author = f'{Dey} {Pierre}'
     year = u'2023'
     month = u'Avril'
     seminary_title = u'Travail personnel OCI'

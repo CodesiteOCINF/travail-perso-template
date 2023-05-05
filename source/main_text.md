@@ -1,6 +1,6 @@
 # Travail Personnel: Fonctionnement d'un Routeur 
 
-```{figure} routeur_image.png
+```{figure} figures/routeur_image.png
     :scale: 50 %
 ```
  ## Réseau: les bases
@@ -17,7 +17,7 @@ On appelle réseau informatique une structure qui relie plusieurs machines infor
 - Des intermédiaires directs, c'est à dire des machines dont le but est de faire office de relais (Hub/switch, router, ...)
 Un exemple typique:
 
-```{figure} exemple1.jpg
+```{figure} figures/exemple1.jpg
     :scale: 50 %
 ```
 
@@ -36,7 +36,7 @@ Ces réseaux se classifient (notamment) selon leurs portées, nous retiendrons l
 ## Couches OSI
 Afin de centrer le rôle des routeurs, nous devons détailler les différents points clés nécéssaires à la communication entre 2 machines. Pour se faire nous allons nous servir d'un modèle théorique que l'on appelle le modèle OSI (Open System Interconnection) qui va décomposer le tout en 7 couches (layers en anglais):
 
-```{figure} OSI.png
+```{figure} figures/OSI.png
     :scale: 50 %
 ```
 
@@ -48,7 +48,7 @@ Donnons un aperçut plus concret de ce modèle:
 - Couche 5-6-7: Tout le reste, autrement dit gérer les requêtes d'échange de données, interprétation des données, puis interface utilisateur.
 
 En pratique c'est plutôt le modèle TCP/IP qui est utilisé, il s'agit du même modèle que l'OSI mais avec certaines couches qui sont fondues ensemble:
-```{figure} ositcpip.png
+```{figure} figures/ositcpip.png
     :scale: 50 %
 ```
 
@@ -83,7 +83,7 @@ Internet protocol (IP), il s’agit d’une adresse le plus souvent temporaire p
 
 Il s'agit d'une manière d'assurer le routage, en mettant une en-tête àau sommet d'un paquet de données afin de détailler diverses informations pratiques pour son voyage sur les réseaux:
 
-```{figure} ipv4.png
+```{figure} figures/ipv4.png
     :scale: 50 %
 ```
 
@@ -120,7 +120,7 @@ Un avantage du NAT est en terme de sécurité car en utilisant des adresses prop
 
 **IPv6:** Même principe que l'IPv4 mais avec quelques nouveautés:
 
-```{figure} ipv6.png
+```{figure} figures/ipv6.png
     :scale: 50 %
 ```
 
@@ -172,7 +172,7 @@ Il existe plusieurs types de routeurs selon leurs fonctions dans le réseau.
 
 
 ## Hardware d'un routeur
-```{figure} router.jpg
+```{figure} figures/router.jpg
     :scale: 50 %
 ```
 
